@@ -3,7 +3,7 @@
 define('SERVERNAME', 'localhost');
 define('USERNAME', 'root');
 define('PASSWORD', '');
-define('DBNAME', 'studentdb');
+define('DBNAME', 'students');
 try {
 	//connect with database
 	$connect = mysqli_connect(SERVERNAME,USERNAME,PASSWORD,DBNAME);
